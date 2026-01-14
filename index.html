@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priya Keshri | Portfolio</title>
+  <meta name="description" content="Priya Keshri - Software Developer portfolio. Projects, skills, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Go to top">
+        <span class="logo-mark">PK</span>
+        <span class="logo-text">Priya Keshri</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#certification" class="nav-link">Certifications</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span id="themeIcon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text fade-up">
+          <p class="eyebrow">Software Developer</p>
+          <h1>
+            Hi, I’m <span class="accent">Priya</span>.
+            <br />
+            I enjoy building reliable systems across Salesforce and backend platforms.
+          </h1>
+          <p class="subtitle">
+            My work spans Apex, Lightning Web Components, and Flows, as well as Java, Python, REST integrations, and CI CD automation.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/priya-keshri-/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="assets/Priya Keshri.pdf" target="_blank">Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-card fade-up delay-2">
+          <div class="profile">
+            <div class="avatar" aria-hidden="true">
+              <!-- If you add assets/profile.jpg, replace this div with an img tag -->
+              <span>PK</span>
+            </div>
+            <div class="profile-meta">
+              <p class="profile-name">Priya Keshri</p>
+              <p class="profile-role">Software Developer</p>
+              <p class="profile-location">Union City, CA</p>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <p class="stat-number">Experience</p>
+              <p class="stat-label">5+ yrs</p>
+              
+            </div>
+            <div class="stat">
+              <p class="stat-number">Salesforce</p>
+              <p class="stat-label">Apex, Lightning Web Components, Aura Components, Triggers, Batch Apex, Test Classes, SOQL, SOSL, Workflow Rules, Flowss</p>
+            </div>
+            <div class="stat">
+              <p class="stat-number">Backend</p>
+              <p class="stat-label">Java, Python, SQL, REST APIs, Microservices</p>
+            </div>
+          </div>
+
+          <div class="note">
+            <p>
+                Open to opportunities in Salesforce Development, Admin or Platform, Software Development Engineer, and Backend Engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p class="lead">
+            As a software developer with 5+ years of experience building scalable, data-driven systems across Salesforce, Java, and cloud environments, I’m passionate about using technology to solve real-world problems. 
+            I specialize in designing end-to-end CRM solutions, backend logic, and automation that improve efficiency, system performance, and user engagement for global teams. I’ve delivered projects across Sales Cloud, 
+            Service Cloud, Experience Cloud, and custom integrations ranging from Apex and Lightning Web Components (LWC) to CI/CD pipelines and REST API-based middleware.
+            I am currently a Software Engineer at Techvy Corp, where I design and deliver tailored technical solutions which support thousands of users, improve operational workflows, and streamline internal processes for global teams. 
+        </p>
+
+        <div class="cards two">
+          <article class="card">
+            <h3>What I do</h3>
+            <ul>
+              <li>Build scalable Apex services, triggers, and backend APIs using Java and Python</li>
+              <li>Develop Lightning Web Components and full stack features with clean data models</li>
+              <li>Automate business workflows using Salesforce Flows, approvals, and backend logic</li>
+              <li>Design and integrate REST APIs between Salesforce and external systems</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>What I care about</h3>
+            <ul>
+              <li>Building solutions that perform well today and still hold up as systems grow</li>
+              <li>Keeping users and data safe through thoughtful access control and security</li>
+              <li>Shipping changes responsibly with testing, monitoring, and safe deployments</li>
+              <li>Writing clean, readable code and documentation that helps the whole team</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="chips">
+            <span class="chip">Salesforce Platform</span>
+            <span class="chip">Apex</span>
+            <span class="chip">LWC</span>
+            <span class="chip">Flows</span>
+            <span class="chip">Triggers</span>
+            <span class="chip">SOQL</span>
+            <span class="chip">SOSL</span>
+            <span class="chip">Experience Cloud</span>
+            <span class="chip">Sales Cloud</span>
+            <span class="chip">Service Cloud</span>
+          
+            <span class="chip">Profiles & Permission Sets</span>
+            <span class="chip">Sharing Rules & OWD</span>
+            <span class="chip">Validation Rules</span>
+            <span class="chip">Approval Processes</span>
+          
+            <span class="chip">REST APIs</span>
+            <span class="chip">Postman</span>
+            <span class="chip">Middleware Integrations</span>
+          
+            <span class="chip">Java</span>
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">Python</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">SQL</span>
+          
+            <span class="chip">Salesforce DX</span>
+            <span class="chip">Git</span>
+            <span class="chip">GitHub Actions</span>
+            <span class="chip">Jenkins</span>
+            <span class="chip">CI/CD</span>
+          
+            <span class="chip">Reports & Dashboards</span>
+            <span class="chip">Data Loader</span>
+            <span class="chip">Data Governance</span>
+          
+            <span class="chip">Agile (Scrum)</span>
+            <span class="chip">Jira</span>
+            <span class="chip">Code Reviews</span>
+            <span class="chip">Technical Documentation</span>
+          </div>
+          
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p class="muted">A few things I’ve built or worked on.</p>
+        </div>
+
+        <div class="cards three">
+            <article class="card project">
+                <div class="project-top">
+                  <h3>Weather Forecast Web App</h3>
+                  <p class="muted">React, API integration</p>
+                </div>
+                <p>
+                  Responsive weather app consuming OpenWeather API with search, forecast, and clean UI.
+                </p>
+                <ul class="project-list">
+                  <li>API error handling and caching basics implemented</li>
+                  <li>Mobile first responsive layout design</li>
+                  <li>Deployed as a static site</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#" aria-label="Live demo">Demo</a>
+                  <a href="#" aria-label="GitHub repository">Code</a>
+                </div>
+              </article>
+
+              <article class="card project">
+                <div class="project-top">
+                  <h3>Movie Recommendation System</h3>
+                  <p class="muted">Python, Clustering, KNN (Brute Force), CSS</p>
+                </div>
+                <p>
+                    Movie recommendation system providing personalized suggestions using clustering and KNN algorithms.
+                </p>
+                <ul class="project-list">
+                  <li>User similarity based recommendations</li>
+                  <li>Basic data preprocessing and feature extraction</li>
+                  <li>Simple, user friendly UI styled with CSS</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#" aria-label="Live demo">Demo</a>
+                  <a href="#" aria-label="GitHub repository">Code</a>
+                </div>
+              </article>
+
+              <article class="card project">
+                <div class="project-top">
+                  <h3>Blogging Platform</h3>
+                  <p class="muted">Flutter, Firebase (Firestore)</p>
+                </div>
+                <p>
+                    Simple blogging application built with Flutter, allowing users to create and view blog posts stored in Firebase Firestore in real time.                </p>
+                <ul class="project-list">
+                  <li>Real time data storage with Firestore</li>
+                  <li>Form based post submission and listing</li>
+                  <li>Basic input validation and clean UI</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#" aria-label="Live demo">Demo</a>
+                  <a href="#" aria-label="GitHub repository">Code</a>
+                </div>
+              </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Software Engineer</h3>
+              <p class="muted">Techvy Corp | April 2025 - Present</p>
+              <ul>
+                <li>Designed custom Apex, Lightning Web Components (LWC), and Flows for 100+ users, centralizing Opportunity and Quote data,
+                    automating approvals, and reducing manual checks, resulting in faster quote turnaround and improved service efficiency.</li>
+                <li>Implemented end-to-end CI/CD pipelines using GitHub Actions and Salesforce DX, automating scratch-org setup, code scans,
+                    unit tests, and deployments to eliminate manual release steps; enabled consistent, one-click builds for developers, admins, and
+                    QA, improved release reliability, and accelerated overall release cycle time by ~25%.</li>
+                <li>Built REST API integrations and middleware flows to map cross-system data, execute clean transformations, and implement
+                    robust error handling and retry logic, eliminating manual updates and reducing sync failures by ~40%.</li>
+                <li>Migrated 12+ legacy Process Builders to consolidated, record-triggered Flows, executing staged deployments with full-sandbox
+                    testing to ensure zero downtime, reducing admin troubleshooting and update effort by ~30%.</li>
+                <li>Led code reviews, mentoring sessions, and technical workshops for junior developers and admins, fostering a culture of secure,
+                    reusable, and test-driven development.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Software Developer</h3>
+              <p class="muted">Bright Mind Enrichment and Schooling (BMEAS) | September 2024 - April 2024</p>
+              <ul>
+                <li>Managed day-to-day Salesforce administration for 500+ staff and volunteers, standardizing layouts, cleaning up unused
+                    permissions, and resolving data visibility issues, resulting in a reduction in access-related support tickets by ~35%.</li>
+                <li> Built Salesforce dashboards using custom report types, Lightning dashboards, and advanced report configurations to surface key
+                    campaign metrics, delivering real-time visibility that replaced manual spreadsheets, reduced reporting time by ~40%.</li>
+                <li>Designed and deployed record-triggered Flows and Apex helper classes to automate care routing, volunteer scheduling, and
+                    campaign follow-ups by mapping manual workflows and replacing them with logic-driven processes, eliminating triage and
+                    repetitive coordination work and reducing team workload by ~40%.</li>
+                <li>Maintained CRM data quality by conducting regular audits, resolving field-level inconsistencies, and enforcing duplicate rules,
+                    standardizing updates through Data Loader to improve reporting accuracy and reduce duplicate records by ~30%.</li>
+                <li>Authors step-by-step training guides and delivered hands-on Salesforce workshops to help users practice real scenarios, increasing
+                    cross-department adoption and reducing basic Salesforce support inquiries by ~25%.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Senior Software Developer</h3>
+              <p class="muted">Cognizant | September 2018 - June 2022</p>
+              <ul>
+                <li>Led Salesforce development and administration for global Sales and Service Cloud organizations across 52 countries and 6K+
+                    users, maintaining system uptime above 99.9%, reducing data visibility and automation-related tickets by ~25%, and enabling
+                    faster case handling across global teams.</li>
+                <li> bulk-safe Apex triggers, batch jobs and test frameworks with 90%+ coverage to process 100K+ records monthly,
+                    optimizing queries and minimizing recursion to reduce batch runtime by ~30% and significantly lower failure rates.</li>
+                <li>Salesforce with ERP and ServiceNow via REST APIs and middleware pipelines, improving SLA compliance by 35%
+                    and reducing manual reconciliation.</li>
+                <li>Introduced source-driven DevOps practices by implementing Git branching strategies, enforcing pull requests, and creating
+                    reusable CI/CD workflows for validation and deployments, reducing errors by ~30% and cutting preparation time by nearly 50%.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+        <div class="container">
+          <h2>Education</h2>
+      
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Master of Science in Computer Science</h3>
+                <p class="muted">
+                  California State University, Fullerton, USA | August 2022 – May 2024
+                </p>
+                <ul>
+                    <li>Completed advanced coursework in algorithms, software engineering, and system design, including Advanced Algorithms and Advanced Software Process, with a strong focus on performance, scalability, and clean architectur.e</li>
+                    <li>Gained hands on experience in modern software development practices through courses like Modern Software Management and Professional Issues in Software Engineering, emphasizing design patterns, SDLC, and team based development.</li>
+                    <li>Built backend and full stack applications through graduate projects and seminars, applying concepts from computer networking, expert systems, and mobile application development.</li>
+                    <li>Strengthened problem solving and analytical skills through project driven courses such as Graduate Project and Advanced Computer Networking, focusing on real world system constraints and trade off analysis.</li>
+                </ul>
+              </div>
+            </article>
+      
+            <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p class="muted">
+                  Sinhgad Institute of Technology, Lonavala, India | August 2014 – June 2018
+                </p>
+                <ul>
+                  <li>Built a strong foundation in data structures, algorithms, object oriented programming, and operating systems.</li>
+                  <li>Gained hands on experience with Java, SQL, and web technologies through coursework and lab assignments.</li>
+                  <li>Worked on team based projects, following basic software development practices like requirement analysis, coding, and testing.</li>
+                  <li>Developed problem solving skills through regular coding assignments and algorithm focused evaluations.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      
+      
+      <section class="section" id="certification">
+        <div class="container">
+          <h2>Certifications</h2>
+  
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <ul>
+                    <li>Salesforce Certified Administrator</li>
+                    <li>Salesforce Certified Platform App Builder</li>
+                    <li>Salesforce Certified Platform Developer I</li>
+                    <li>Salesforce Certified Agentforce Specialist</li>
+                </ul>
+              </div>
+            </article>
+  
+  
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">
+          Want to talk about a role or a project? Send a message.
+        </p>
+
+        <div class="cards two">
+          <article class="card">
+            <h3>Quick links</h3>
+            <ul class="contact-links">
+              <li><a href="mailto:priyakeshri78@gmail.com">priyakeshri78@gmail.com</a></li>
+              <li><a href="https://www.linkedin.com/in/priya-keshri-/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Message me</h3>
+            <form id="contactForm">
+              <label>
+                Your name
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Your email
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </label>
+
+              <label>
+                Message
+                <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
+              </label>
+
+              <button class="btn primary" type="submit">Send</button>
+              <p class="muted small" id="formNote"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year"></span> Priya Keshri</p>
+      <a class="muted" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
